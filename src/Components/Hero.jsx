@@ -31,7 +31,7 @@ function Hero() {
 
             <span className="flex w-[20%] md:w-[5.5%] group  items-center bg-white/40 gap-2 px-1 rounded-full">
                 <div className="h-2 w-2 rounded-full ml-2 group-hover:blur-xs transition-all duration-300 bg-green-500"></div>
-                <div className="text-white font-thin">Beta</div>
+                <div className="text-white text-xs md:text-sm font-thin">Beta</div>
             </span>
 
             {/* Hero-Text */}
