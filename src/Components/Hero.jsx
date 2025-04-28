@@ -41,7 +41,7 @@ function Hero() {
 
                  <motion.div 
                 
-                 className=" text-5xl sm:text-7xl md:text-[200px] relative leading-15 md:leading-40 font-bold
+                 className=" text-6xl sm:text-7xl md:text-[200px] relative leading-15 md:leading-40 font-bold
                  bg-clip-text text-transparent bg-gradient-to-b
                  from-white via-zinc-500 to-zinc-900 perspective-dramatic">
                     <div 
