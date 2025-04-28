@@ -36,23 +36,18 @@ function Hero() {
 
             {/* Hero-Text */}
             <div className="mt-10 flex flex-col items-center">
-                <div className="text-4xl md:text-8xl text-center font-['Neue_Montreal'] bg-clip-text text-transparent bg-gradient-to-b
+                <div className=" text-3xl sm:text-4xl md:text-8xl text-center font-['Neue_Montreal'] bg-clip-text text-transparent bg-gradient-to-b
                  from-zinc-200 to-zinc-700">Not Just Pretty,</div>
 
                  <motion.div 
                 
-                 className=" text-7xl md:text-[200px] relative leading-15 md:leading-40 font-bold
+                 className=" text-5xl sm:text-7xl md:text-[200px] relative leading-15 md:leading-40 font-bold
                  bg-clip-text text-transparent bg-gradient-to-b
                  from-white via-zinc-500 to-zinc-900 perspective-dramatic">
                     <div 
                     // ref={scope}
                     className="text-center z-10">
-                        {"POWERFUL".split("").map((word,index)=> (
-                            <motion.span
-                            className='inline-block'
-                            key={index}
-                            >{word}</motion.span>
-                        ))}
+                        POWERFUL
                     </div> 
                     
                 </motion.div>
@@ -60,8 +55,8 @@ function Hero() {
                  <div className="md:text-zinc-400 text-zinc-400 mt-6 md:mt-4 text-xs md:text-lg text-center"> We build web experiences that don't just look good — they perform even better.</div>
 
                  {/* Button */}
-                 <div className="flex mt-15 gap-10 md:gap-22">
-                    <button className="text-neutral-300 px-8 py-3 border-[0.1px] rounded-2xl text-md md:text-xl">
+                 <div className="flex mt-15 gap-6 md:gap-22">
+                    <button className="text-neutral-300 px-3 sm:px-4 md:px-8 py-1 md:py-3 border-[0.1px] rounded-2xl text-sm sm:text-md md:text-xl">
                         Get Started
                     </button>
                     
@@ -69,7 +64,7 @@ function Hero() {
 
                         <motion.div 
                         style={{ border, boxShadow}}
-                        className="px-8 py-3 text-lg rounded-2xl text-white bg-zinc-800">
+                        className=" px-3 sm:px-4 md:px-8 py-1 sm:py-3 text-sm sm:text-lg rounded-2xl text-white bg-zinc-800">
                             Experience the Power
                         </motion.div>
                         
